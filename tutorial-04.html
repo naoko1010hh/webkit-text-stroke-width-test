@@ -22,7 +22,7 @@
             width: calc(1920px - 100px);
             height: calc(1080px - 200px);
             border-radius: 5rem;
-            border:  5vw #fff solid ;
+            border:  50px #fff solid ;
             position: fixed;
             margin: 100px auto; 
             top: 0;
@@ -34,24 +34,24 @@
             width: 300px;
         }
         #text{
-            height: calc(1080px - 200px - 10vw);
+            height: calc(1080px - 200px - 100px);
         }
         h1,h2{
             /* display: inline-block; */
             color: #FF3399;
-            font-size: 104.5px;
+            font-size: 110px;
             font-family: 'Noto Sans JP', sans-serif;
-            -webkit-text-stroke-width: 2vw;
+            -webkit-text-stroke-width: 20px;
             position: relative;
             left: 0;
             right: 0;
             margin: 0 auto;
-            letter-spacing: 3.5px;
+            letter-spacing: 0;
         }
         h1::after,h2::after{
             content: attr(data-text);
             color: #fff;
-            -webkit-text-stroke-width: 1vw;
+            -webkit-text-stroke-width: 10px;
             position: absolute;
             left: 0;
             z-index: 10;
@@ -66,7 +66,7 @@
         }
         h2{
             position: absolute;
-            font-size: 142px;
+            font-size: 150px;
             bottom: 0;
         }
         #text2{
@@ -83,7 +83,7 @@
             color: rgb(0, 26, 255);
             font-size: 156px;
             transform: rotate(2deg);
-            letter-spacing: .5vw;
+            letter-spacing: 3px;
             right: -2%;
             top: 0;
         }
@@ -102,17 +102,17 @@
             color: rgb(0, 26, 255);
             font-size: 156px;
             font-family: 'Noto Sans JP', sans-serif;
-            -webkit-text-stroke-width: 3vw;
+            -webkit-text-stroke-width: 50px;
             position: relative;
             top:-220px;
-            right: -160%;
+            right: -156%;
             transform: rotate(2deg);
             letter-spacing: .5vw;
         }
         p.t::after{
             content: attr(data-text);
             color: #fff;
-            -webkit-text-stroke-width: 2vw;
+            -webkit-text-stroke-width: 30px;
             position: absolute;
             left: 0;
             z-index: 10;
